@@ -1,52 +1,220 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    background: #000;
-    color: #FFF;
-
 }
-.contenairStyles {
-   
-    padding: 10px 20px;
-    border:solid 1px #FFF;
+.Principal-contenair{
+    background-color: #000;
+    padding: 10px;
     display: flex;
-}
-.contenairFlex{
-    display: flex;
-    width: 35%;
+    justify-content: center;
+    margin: auto;
 }
 .btn{
-    margin-top: 30px;
     padding: 10px 20px;
-    border-radius: 80px;
-    background: #1D9BF0;
-    border-style: none;
-}
-.btn-large{
-    margin-top: 30px;
-    padding: 10px 80px;
-    border-radius: 80px;
-    background:#1D9BF0;
-    border-style: none;
-}
-
-.editor{
-    
+    background-color: #1D9BF0;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 50px;
 }
 .sidebar{
-    line-height: 40px;
+    line-height: 60px;
+    padding: 10px;
+    width: 15%;
+
+}
+.logotwitter{
+    padding-bottom: 15px;
+}
+.menu{
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    gap: 15px; 
+}
+.btn-large{
+    margin-top: 10px;
+    padding: 0px 90px;
+    font-weight: 500;
+    font-size: 1.1em;
+    background-color: #1D9BF0;
+    color: #fff;
+    border-radius: 50px;
 }
 
-.Menutweet{
-    display: flex;
-    padding-top: 10px;
-    font-size: 20px;
-    gap: 20px;
-}
-.profil{
-    width: 65px;
+.profile{
+    width: 60px;
     height: 60px;
     border-radius: 50%;
+    
+}
+.user_profile{
+    display: flex;
+    padding: 0 1Opx ;
+    justify-content: end;
+    
+}
+.users{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 10px 0;
+    bottom: 0
+    
+}
+
+.username{
+    gap: 5px;
+    display: flex;
+    padding: 10px;
+} 
+
+
+/* timeline */
+.timeline{
+    width: 30%;
+    color:#fff;
+    border-left: solid 1px #2f3336 ;
+    border-right: solid 1px #2f3336;
+
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+    /* border-bottom: solid 1px #2f3336; */
+}
+.tweet-actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 70px;
+}
+.editor{
+    margin: 0 10px;
+    font-size: 1.2em;
+    width: 100%;
+    background: #000;
+    color: #fff;
+}
+.Tweeteditor{
+    display: flex;
+    padding: 10px 15px;
+}
+.edit{
+    border-bottom: solid 1px #2f3336 ;
+    padding: 10px;
+}
+.tweet-editor-action{
+    display: flex;
+    justify-content: space-between;
+    justify-items: right;
+    margin: auto;
+}
+
+.tweet-action{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+.actions{
+    gap: 10px;
+    display: flex;
+}
+.img-contenair{
+    width: 100%;
+    height: 40%; 
+}
+/* tweets */
+.Tweet{
+    display: flex;
+    border-bottom: solid 1px #2f3336;
+    padding: 10px ;
+    font-size: 1.2em;
+}
+.user{
+    display: flex;
+    gap: 5px;
+}
+.check{
+    width: 20px;
+}
+.Tweet_content{
+    /* display: flex; */
+    padding: 0 10px ;
+    height: 100%;
+}
+.tweet_text{
+    display: flex;
+    padding: 15px 0;
+
+}
+.tweet_image{
+    border-radius: 40px;
+    padding: 20px;
+
+    /* max-height: 30%; */
+    /* justify-content: ; */
+    /* margin: auto; */
+}
+
+/*  */
+.widgets-bloc{
+    padding: 10px 20px;
+    width: 19%;
+    line-height: 30px;
+
+}
+.widget{
+    margin-top: 30px;
+    background: #16181c;
+    border-radius: 30px;
+}
+.search-btn{
+    padding: 12px 50px;
+    background: #16181c;
+    border-radius: 80px;
+}
+.pd-wedget{
+    padding: 13px;
+}
+.search-bloc{
+    position: relative;
+    background: #16181c;
+    border-radius: 80px;
+}
+.search-icon{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    padding-left: 15px;
+    
+}
+.title-tips{
+    padding-left: 0px ;
+}
+.tips{
+    padding: 10px 0;
+}
+.tipstext{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.btn-tips{
+    background-color: transparent;
+    color: #1D9BF0;
+    padding: 0;
+}
+.trend{
+    display: flex;
 }
