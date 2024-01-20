@@ -22,7 +22,7 @@ export default function TweetEditor({ Phprofile }) {
           <TweetActions Icons={Emoji} />
           <TweetActions Icons={Schedule} />
         </span>
-        <Button name={"Tweet"}></Button>
+        <Button btn="btn" name={"Tweet"}></Button>
       </div>
     </div>
   );

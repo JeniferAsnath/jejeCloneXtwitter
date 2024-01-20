@@ -1,4 +1,4 @@
-import more from "../assets/Icons/More.svg"
+import more from "../assets/Icons/More-2.svg"
 const tips = [{
     name: "trending in turkey",
     hash : "#SQUID",

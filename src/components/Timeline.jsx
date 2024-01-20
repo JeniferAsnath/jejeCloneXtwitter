@@ -8,7 +8,7 @@ import Tweet from "./Tweet";
 export default function Timeline() {
   return (
     <div className="timeline">
-      <Titres Name={"Home"} Icon={Stars} />
+      <Titres title='title' Name={"Home"} Icon={Stars} />
       <TweetEditor Phprofile={Profil}></TweetEditor>
       <Tweet />
     </div>
